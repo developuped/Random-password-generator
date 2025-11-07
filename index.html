@@ -9,17 +9,22 @@
 <body>
   <a href="#main" class="skip-link">Перейти до основного змісту</a>
 
-  <header>
-    <h1>Генератор паролей</h1>
-    <img src="logo.png" alt="Логотип сайту" width="60">
-    <nav aria-label="Головна навігація">
-      <ul>
-        <li><a href="index.html" aria-current="page">Головна</a></li>
-        <li><a href="topic.html">Матеріал</a></li>
-        <li><a href="contacts.html">Контакти</a></li>
-      </ul>
-    </nav>
-  </header>
+  <header class="header">
+  <h1 class="logo">TaskManager</h1>
+
+  <button class="menu-toggle" aria-expanded="false">Відкрити меню</button>
+
+  <nav class="nav">
+    <ul>
+      <li><a href="index.html">Список</a></li>
+      <li><a href="form.html">Додати задачу</a></li>
+      <li><a href="contacts.html">Контакти</a></li>
+    </ul>
+  </nav>
+
+  <div class="overlay"></div>
+</header>
+
 
   <main id="main">
     <section>
@@ -33,5 +38,6 @@
   </footer>
 </body>
 </html>
+
 
 
